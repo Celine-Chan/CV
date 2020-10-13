@@ -1,0 +1,208 @@
+/* ------Police -------*/
+
+@font-face
+{
+    font-family: 'cormorant_infantSBdIt';
+    src: url('CormorantInfant-SemiBoldItalic-webfont.eot');
+    src: url('CormorantInfant-SemiBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CormorantInfant-SemiBoldItalic-webfont.woff2') format('woff2'),
+         url('CormorantInfant-SemiBoldItalic-webfont.woff') format('woff'),
+         url('CormorantInfant-SemiBoldItalic-webfont.ttf') format('truetype'),
+         url('CormorantInfant-SemiBoldItalic-webfont.svg#cormorant_infantSBdIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'aliceregular';
+    src: url('Alice-Regular-webfont.eot');
+    src: url('Alice-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Alice-Regular-webfont.woff2') format('woff2'),
+         url('Alice-Regular-webfont.woff') format('woff'),
+         url('Alice-Regular-webfont.ttf') format('truetype'),
+         url('Alice-Regular-webfont.svg#aliceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* -------- En-tête -------- */
+
+.main-contener
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.entete
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(79, 82, 85);
+    height: 40%;
+    width: 100%;
+}
+
+.titre
+{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    width: 100%;
+}
+
+.photo
+{
+    display: flex;
+    flex-direction: row;   
+}
+
+.nom
+{
+    display: flex;
+    color: white;
+    width: 350px;
+    margin: auto; 
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 55px;
+    font-family: 'aliceregular', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+
+}
+
+.accroche
+{
+    display: flex;
+    color: black;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(250, 181, 52);
+    font-family: 'cormorant_infantSBdIt', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.column
+{
+    width: 2%;
+    height: 100%;
+    background-color: rgb(79, 82, 85);
+}
+
+.secondColumn
+{
+    width: 2%;
+    height: 100%;
+    background-color: rgb(250, 181, 52);
+}
+
+/* ---------------- Contenu --------------- */
+
+/* ------Aside ------ */
+
+.subContener
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.aside
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(79, 82, 85);
+    color: white;
+    width: 22%;
+    height: 157.7%;
+    border: rgb(79, 82, 85);
+    padding: 12px;
+    justify-content: space-between;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info
+{
+    background-color: rgb(250, 181, 52);
+    color: white;
+    text-align: center;
+    border: rgb(250, 181, 52);
+}
+
+.linkedin
+{
+    background-color: rgb(0, 119, 181);
+    height: 100%;
+    width: 25%;
+}
+
+.github
+{
+    background-color: white;
+    height: 100%;
+    width: 25%;
+}
+
+.lisere
+{
+    width: 100%;
+	height: 3px;
+	background-color: white;
+}
+
+.adress .phone .email
+{
+    display: flex;  
+    flex-direction: column;
+}
+
+/* ------------ Contenu principaux -------------- */
+
+.bold
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main
+{
+    width: 100%;
+    height: 157.7%;
+    display: flex;
+    flex-direction: column;
+    border: white;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 16px;
+
+}
+
+.line 
+{
+    width: 100%;
+	height: 3px;
+	background-color: black;
+}
+
+.color
+{
+    color: rgb(250, 181, 52);
+}
+
+/* --------- lisere du bas -------------*/
+
+.foot
+{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(250, 181, 52);
+}
+
+.italic
+{
+    font-style: italic;
+}
