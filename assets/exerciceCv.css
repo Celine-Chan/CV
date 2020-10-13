@@ -79,6 +79,16 @@
     text-align: right;
 }
 
+.dot
+{
+    list-style-type: none;
+}
+
+a
+{
+    color: white;
+}
+
 .accroche
 {
     display: flex;
